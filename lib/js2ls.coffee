@@ -1,4 +1,4 @@
-js2coffee = require('js2coffee');
+js2coffee = require('./js2coffee');
 coffee2ls = require('./coffee2ls.js');
 
 RangeFinder = require './range-finder'
