@@ -1,13 +1,13 @@
 {
-  "name": "js2coffee",
-  "main": "./lib/js2coffee",
-  "version": "0.8.0",
+  "name": "js2ls",
+  "main": "./lib/js2ls",
+  "version": "0.0.1",
   "private": true,
-  "description": "Convert selected lines or an entire file into coffeescript.",
+  "description": "Convert selected lines or an entire file into LiveScript.",
   "activationEvents": [
-    "js2coffee:toggle"
+    "js2ls:toggle"
   ],
-  "repository": "https://github.com/Chandler/atom-js2coffee",
+  "repository": "https://github.com/audreyt/atom-js2ls",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

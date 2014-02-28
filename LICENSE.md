@@ -1,4 +1,14 @@
-Copyright (c) 2014 <Your name here>
+CC0 1.0 Universal
+
+To the extent possible under law, 唐鳳 has waived all copyright and related or neighboring rights to `atom-js2ls`.
+
+This work is published from Taiwan.
+
+<http://creativecommons.org/publicdomain/zero/1.0>
+
+Based on <https://github.com/Chandler/atom-js2coffee>:
+
+Copyright (c) 2014 Chandler Abraham
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

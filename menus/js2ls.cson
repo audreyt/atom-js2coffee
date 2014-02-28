@@ -1,15 +1,15 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
   '.overlayer':
-      'Enable js2coffee': 'js2coffee:toggle'
+      'Enable js2ls': 'js2ls:toggle'
 
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'js2coffee'
+      'label': 'js2ls'
       'submenu': [
-        { 'label': 'Toggle', 'command': 'js2coffee:toggle' }
+        { 'label': 'Toggle', 'command': 'js2ls:toggle' }
       ]
     ]
   }

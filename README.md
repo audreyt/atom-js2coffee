@@ -1,11 +1,9 @@
-# js2coffee package
+# js2ls package
 
-Atom.io wrapper around the wonderful https://github.com/js2coffee/js2coffee
+Atom.io wrapper around the code from https://github.com/gkz/coffee2ls
 
-Allows you to use Js2Coffee on selections of text. If nothing is selected it converts the entire file.
+Allows you to use Js2Ls on selections of text. If nothing is selected it converts the entire file.
 
-installation: apm install js2coffee
+installation: apm install js2ls
 
-atom command: js2coffee:toggle
-
-![js2coffee gif](https://raw.github.com/Chandler/atom-js2coffee/master/js2coffee.gif)
+atom command: js2ls:toggle

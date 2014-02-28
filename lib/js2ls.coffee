@@ -1,10 +1,11 @@
-Js2Coffee = require('js2coffee');
+js2coffee = require('js2coffee');
+coffee2ls = require('./coffee2ls.js');
 
 RangeFinder = require './range-finder'
 
 module.exports =
   activate: ->
-    atom.workspaceView.command 'js2coffee:toggle', '.editor', =>
+    atom.workspaceView.command 'js2ls:toggle', '.editor', =>
       editor = atom.workspaceView.getActivePaneItem()
       @convert(editor)
 
@@ -13,7 +14,8 @@ module.exports =
     ranges.forEach (range) =>
       jsContent = editor.getTextInBufferRange(range)
       try
-        coffeeContent = Js2Coffee.build(jsContent, {indent: editor.getTabText()});
-        editor.setTextInBufferRange(range, coffeeContent)
+        coffeeContent = js2coffee.build(jsContent, {indent: editor.getTabText()});
+        lsContent = coffee2ls.compile coffee2ls.parse coffeeContent
+        editor.setTextInBufferRange(range, lsContent)
       catch e
         console.error("invalid javascript")
