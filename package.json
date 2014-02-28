@@ -1,7 +1,7 @@
 {
   "name": "js2ls",
   "main": "./lib/js2ls",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "Convert selected lines or an entire file into LiveScript.",
   "activationEvents": [
