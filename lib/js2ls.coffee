@@ -1,4 +1,5 @@
-js2coffee = require('./js2coffee');
+{allowUnsafeEval} = require 'loophole'
+js2coffee = allowUnsafeEval -> require 'js2coffee'
 coffee2ls = require('./coffee2ls.js');
 
 RangeFinder = require './range-finder'
